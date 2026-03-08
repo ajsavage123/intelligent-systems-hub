@@ -246,20 +246,14 @@ const PartnerModal = ({ isOpen, onOpenChange }: PartnerModalProps) => {
                                 </SelectTrigger>
                               </FormControl>
                               <SelectContent className="glass-dark border-white/10 rounded-xl">
-                                <SelectItem value="Innovator" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <span className="font-bold">Innovator</span>
+                                <SelectItem value="Innovator and Researcher" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Innovator and Researcher</span>
                                 </SelectItem>
-                                <SelectItem value="Researcher" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <span className="font-bold">Researcher</span>
+                                <SelectItem value="Developer and Engineer" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Developer and Engineer</span>
                                 </SelectItem>
-                                <SelectItem value="Developer / Engineer" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <span className="font-bold">Developer / Engineer</span>
-                                </SelectItem>
-                                <SelectItem value="Business Expert" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <span className="font-bold">Business Expert</span>
-                                </SelectItem>
-                                <SelectItem value="Marketing" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <span className="font-bold">Marketing</span>
+                                <SelectItem value="Business Expert and Marketing" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Business Expert and Marketing</span>
                                 </SelectItem>
                               </SelectContent>
                             </Select>
