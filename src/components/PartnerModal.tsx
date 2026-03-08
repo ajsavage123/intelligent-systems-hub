@@ -246,29 +246,20 @@ const PartnerModal = ({ isOpen, onOpenChange }: PartnerModalProps) => {
                                 </SelectTrigger>
                               </FormControl>
                               <SelectContent className="glass-dark border-white/10 rounded-xl">
-                                <SelectItem value="Technology and Development" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <div className="flex flex-col">
-                                    <span className="font-bold">Technology and Development</span>
-                                    <span className="text-[10px] opacity-60">Product builder, AI specialists, Developers, Engineers</span>
-                                  </div>
+                                <SelectItem value="Innovator" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Innovator</span>
                                 </SelectItem>
-                                <SelectItem value="Healthcare Domain" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <div className="flex flex-col">
-                                    <span className="font-bold">Healthcare Domain</span>
-                                    <span className="text-[10px] opacity-60">Knowledge exploration in healthcare, Researching</span>
-                                  </div>
+                                <SelectItem value="Researcher" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Researcher</span>
                                 </SelectItem>
-                                <SelectItem value="Business and Marketing" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <div className="flex flex-col">
-                                    <span className="font-bold">Business and Marketing</span>
-                                    <span className="text-[10px] opacity-60">Marketing, Branding, Business strategies</span>
-                                  </div>
+                                <SelectItem value="Developer / Engineer" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Developer / Engineer</span>
                                 </SelectItem>
-                                <SelectItem value="Research and Innovation" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
-                                  <div className="flex flex-col">
-                                    <span className="font-bold">Research and Innovation</span>
-                                    <span className="text-[10px] opacity-60">Research projects, Technology, AI Strategy, Cybersecurity Innovation</span>
-                                  </div>
+                                <SelectItem value="Business Expert" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Business Expert</span>
+                                </SelectItem>
+                                <SelectItem value="Marketing" className="focus:bg-primary/20 hover:bg-primary/10 py-3">
+                                  <span className="font-bold">Marketing</span>
                                 </SelectItem>
                               </SelectContent>
                             </Select>
