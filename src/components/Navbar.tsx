@@ -1,14 +1,5 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  DropdownMenuLabel,
-  DropdownMenuSeparator
-} from "@/components/ui/dropdown-menu";
-import { ChevronDown, Briefcase, Rocket, BookOpen, Users } from "lucide-react";
 
 interface NavbarProps {
   onOpenPartner: () => void;
